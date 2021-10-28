@@ -1,0 +1,189 @@
+html
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #F1F1F1;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+header
+{
+	width: 100%;
+	height: 200px;
+	background-color: #000000;
+	border-bottom: 10px solid white;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+}
+
+.site_name
+{
+	width: 100%;
+	height: 50%;
+	font-size: 100px;
+	font-family: "Agency FB";
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+.site_desc
+{
+	width: 100%;
+	height: 50%;
+	margin: 0;
+	margin-top: 10px;
+	font-size: 30px;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	text-align: center;
+}
+
+.blog_block
+{
+	width: 40%;
+	min-height: 500px;
+	background-color: #D5D5D5;
+	border: 1px solid #878787;
+	border-radius: 5px;
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: black;
+}
+
+.header
+{
+	height: 50px;
+	background-color: #BDBDBD;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	font-family: "GOST Common";
+	font-weight: bold;
+}
+
+.content
+{
+	margin: 15px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: "Tahoma";
+}
+
+.content p
+{
+	display: flex;
+	text-align: left;
+}
+
+.content img
+{
+	width: 220px;
+	height: 325px;
+}
+
+.main_content
+{
+	width: 1000px;
+	min-height: 100%;
+	background-color: #C6C6C6;
+	display: flex;
+	
+}
+
+.main_description
+{
+	height: 100%;
+	width: 70%;
+}
+
+.main_table
+{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.table_header
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+	width: 96.5%;
+	background-color: #2491F4;
+	border: 5px solid #0c66bb;
+	color: white;
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.table_skin
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.background-rare
+{
+	background: linear-gradient(100deg,#085ca9 0%,#085ca9 45%,#2491f4 45%,#2491f4 47%,#085ca9 13%,#085ca9 57%,#2491f4 57%,#2491f4 63%,#085ca9 63%,#085ca9 70%,#2491f4 70%,#2491f4 72%,#085ca9 72%,#085ca9 80%,#2491f4 80%,#2491f4 90%,#085ca9 90%) !important;
+}
+
+.background-legendary
+{
+	background: linear-gradient(100deg,#ff0b 0%,#ff0b 45%,#fd0b 45%,#fd0b 47%,#ff0b 13%,#ff0b 57%,#fd0b 57%,#fd0b 63%,#ff0b 63%,#ff0b 70%,#fd0b 70%,#fd0b 72%,#ff0b 72%,#ff0b 80%,#fd0b 80%,#fd0b 90%,#ff0b 90%) !important;
+}
+
+.background-chromatic
+{
+	background: linear-gradient(100deg,#0000 0%,#0000 45%,#fff4 45%,#fff4 47%,#0000 13%,#0000 57%,#fff4 57%,#fff4 63%,#0000 63%,#0000 70%,#fff4 70%,#fff4 72%,#0000 72%,#0000 80%,#fff4 80%,#fff4 90%,#0000 90%),linear-gradient(100deg,#a0fb 45%,#f00b 55%,#ff0b 70%) !important;
+}
+
+.background-epic
+{
+	    background: linear-gradient(
+100deg,#a0fb 0%,#a0fb 45%,#b3fb 45%,#b3fb 47%,#a0fb 13%,#a0fb 57%,#b3fb 57%,#b3fb 63%,#a0fb 63%,#a0fb 70%,#b3fb 70%,#b3fb 72%,#a0fb 72%,#a0fb 80%,#b3fb 80%,#b3fb 90%,#a0fb 90%) !important;
+}
+
+.table_body
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.table_body table
+{
+	font-family: "Comic Sans MS";
+	width: 100%;
+}
+
+.table_body td, th
+{
+	text-align: center;
+}
